@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Status-Saver-App-master.iml" filepath="$PROJECT_DIR$/.idea/modules/Status-Saver-App-master.iml" group="Status-Saver-App-master" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Status-Saver-App-master-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Status-Saver-App-master-app.iml" group="Status-Saver-App-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/New Status Saver-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/New Status Saver-app.iml" group="New Status Saver/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/New_Status_Saver.iml" filepath="$PROJECT_DIR$/.idea/modules/New_Status_Saver.iml" group="New_Status_Saver" />
       <module fileurl="file://$PROJECT_DIR$/StatusSaverApp.iml" filepath="$PROJECT_DIR$/StatusSaverApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

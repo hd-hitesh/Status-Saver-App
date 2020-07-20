@@ -1,51 +1,56 @@
-<android.support.design.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#000000"
-    android:fitsSystemWindows="true"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true">
+
     <android.support.design.widget.AppBarLayout
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        android:background="#00000000"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
         <include layout="@layout/trans_toolbar" />
     </android.support.design.widget.AppBarLayout>
+
     <include layout="@layout/vimo_play" />
+
     <com.github.clans.fab.FloatingActionMenu
-        android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
         android:id="@id/menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
         android:layout_margin="16dp"
-        app:menu_showShadow="true"
+        app:menu_colorNormal="@android:color/black"
         app:menu_fab_size="normal"
-        app:menu_colorNormal="?attr/colorPrimary"
-        >
+        app:menu_showShadow="true">
+
         <com.github.clans.fab.FloatingActionButton
             android:id="@id/save"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/savedp"
-            app:fab_colorNormal="?attr/colorPrimary"
-            app:fab_size="normal"
-            app:fab_label="Save" />
+            app:fab_colorNormal="@android:color/black"
+            app:fab_label="Save"
+            app:fab_size="normal" />
+
         <com.github.clans.fab.FloatingActionButton
             android:id="@id/rep"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/rep"
-            app:fab_colorNormal="?attr/colorPrimary"
-            app:fab_size="normal"
-            app:fab_label="Repost" />
+            app:fab_colorNormal="@android:color/black"
+            app:fab_label="Repost"
+            app:fab_size="normal" />
+
         <com.github.clans.fab.FloatingActionButton
             android:id="@id/dlt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/dlt"
-            app:fab_colorNormal="?attr/colorPrimary"
-            app:fab_size="normal"
-            app:fab_label="Delete" />
+            app:fab_colorNormal="@android:color/black"
+            app:fab_label="Delete"
+            app:fab_size="normal" />
     </com.github.clans.fab.FloatingActionMenu>
 </android.support.design.widget.CoordinatorLayout>
